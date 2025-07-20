@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form input, form button {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+#goals-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.goal-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.goal-card h3 {
+  margin-top: 0;
+}
+
+.progress-bar {
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+  margin: 10px 0;
+}
+
+.progress-bar-inner {
+  background: #4CAF50;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  transition: width 0.3s ease;
+}
+
+.deposit-form input {
+  width: 150px;
+  display: inline-block;
+}
+
+.deposit-form button {
+  width: auto;
+  padding: 8px 12px;
+  margin-left: 10px;
+}
+
+button.edit-btn, button.delete-btn {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button.edit-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+button.edit-btn:hover {
+  background-color: #0b7dda;
+}
+
+button.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+button.delete-btn:hover {
+  background-color: #da190b;
+}
+
+#overview {
+  background: #fff;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+#deadlines-warning p {
+  margin: 5px 0;
+  font-weight: bold;
+}
